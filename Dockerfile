@@ -1,6 +1,6 @@
-FROM ubuntu:16.04
+FROM ubuntu:16.10
 
-MAINTAINER Wei-Ming Wu <wnameless@gmail.com>
+MAINTAINER Paulo Suderio <paulo.suderio@gmail.com>
 
 ADD assets /assets
 RUN /assets/setup.sh
